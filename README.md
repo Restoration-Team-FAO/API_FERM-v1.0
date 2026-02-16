@@ -102,13 +102,7 @@ curl -X GET "https://ferm.fao.org/api/projects/<PROJECT_ID>"   -H "x-api-key: <Y
 - 📘 **User Manual (DOCX):** `docs/manual-api/Guia_Usuario_API_FERM_Panama.docx`
 - 📄 Recommended: keep a readable version in Markdown at `docs/manual-api/README.md`
 
-## Suggested repository structure
-```text
-docs/
-  manual-api/
-    README.md
-    Guia_Usuario_API_FERM_Panama.docx
-```
+
 
 ## Operational recommendations
 - Store the API Key in a **secrets manager** (never hardcode)
