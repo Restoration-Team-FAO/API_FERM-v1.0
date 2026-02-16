@@ -98,12 +98,6 @@ GEOJSON
 curl -X GET "https://ferm.fao.org/api/projects/<PROJECT_ID>"   -H "x-api-key: <YOUR_API_KEY>"
 ```
 
-## Documentation (User Guide)
-- 📘 **User Manual (DOCX):** `docs/manual-api/Guia_Usuario_API_FERM_Panama.docx`
-- 📄 Recommended: keep a readable version in Markdown at `docs/manual-api/README.md`
-
-
-
 ## Operational recommendations
 - Store the API Key in a **secrets manager** (never hardcode)
 - Start with a **small dataset** (1–10 projects), then scale up
@@ -118,4 +112,4 @@ curl -X GET "https://ferm.fao.org/api/projects/<PROJECT_ID>"   -H "x-api-key: <Y
 ---
 
 Maintained by: **Ing. Aida Zapata Orozco**  
-Contact: [add email / organization]
+Contact:aida.zapataorozco@fao.org
